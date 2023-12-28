@@ -13,7 +13,7 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
     <>
       <Page
         title="My blog"
-        description="Here, I write about stuff i am learning and high interested in, thank you for reading!"
+        description="Here I will discuss about the tech stuff that I am learning, enjoy your reading!"
       >
         <PostList posts={posts} />
       </Page>
